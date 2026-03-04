@@ -10,7 +10,7 @@ BASE_URL = "https://cdn.moltyroyale.com/api"
 
 # WAJIB ISI API KEY KAMU DI SINI (CONTOH UNTUK BOT 1)
 API_KEY = "mr_live_U2yiRuK46ZC2rB9xcz4ORKDv3u4n_j2G"
-BOT_NAME = "peaxel"                
+BOT_NAME = "dotpeaxel"                
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -945,4 +945,5 @@ if __name__ == "__main__":
             main()
         except Exception as e:
             print(f"💥 [{BOT_NAME}] Crash sistem: {e}. Reboot dalam 5 detik...")
+
             time.sleep(5)
